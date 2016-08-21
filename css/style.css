@@ -23,6 +23,12 @@ section {
     padding:15px;	 	 
 }
 
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
 
 footer {
     background:blue;
