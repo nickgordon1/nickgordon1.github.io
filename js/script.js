@@ -13,7 +13,7 @@
 });*/
 
 $(document).ready(function(){
-  $('img, header, footer').fadeIn(5000);
+  $('h1').fadeIn(1000);
     $('header').click(function(){
       $('header').css("background", "green");
     });
