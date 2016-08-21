@@ -1,8 +1,8 @@
-/*$(document).ready(function(){
-  $('h1').fadeIn('slow');
+$(document).ready(function(){
+  $('h1').fadeIn(1000);
   
-  $('.button').click(function(){
-	  $('img').fadeOut();
+  $('button').click(function(){
+	  $('img').toggle();
   });
   
   $('header').click(function(){
@@ -10,14 +10,4 @@
   });
 
 
-});*/
-
-$(document).ready(function(){
-  $('h1').fadeIn(1000);
-    $('header').click(function(){
-      $('header').css("background", "green");
-    });
-  $('button').click(function(){
-    $('img').toggle();
-  });
 });
